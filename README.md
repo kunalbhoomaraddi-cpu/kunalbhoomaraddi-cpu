@@ -68,10 +68,10 @@ Computer Science Engineering (AI) graduate who enjoys building things end to end
 ### 🏋️ [FitAI](https://github.com/kunalbhoomaraddi-cpu/fitai) · [Live demo](https://fitai-app-pink.vercel.app)
 An AI fitness coach that checks your real numbers before it answers: calorie and macro targets, meal plans, workouts and weekly reviews, with about 200 Indian home-style dishes. **React, TypeScript, FastAPI, PostgreSQL, Gemini function calling**, 102 tests in GitHub Actions.
 
-### 📄 [DocSense](https://github.com/kunalbhoomaraddi-cpu/docsense): RAG with citations and evals
+### 📄 [DocSense](https://github.com/kunalbhoomaraddi-cpu/docsense): RAG with citations and evals · [Live demo](https://docsense-6bcu.onrender.com)
 Ask questions about your documents and get answers that cite the exact section, or an honest "I couldn't find this". Hybrid retrieval (BM25 from scratch + TF-IDF + Gemini embeddings), a refusal check tuned on a 43-question eval set: **85% correct answers, 100% correct refusals, 0 made-up answers**. **Python, FastAPI, scikit-learn, Gemini**.
 
-### 🧭 [JobFit Agent](https://github.com/kunalbhoomaraddi-cpu/jobfit-agent): an AI agent that can't lie about you
+### 🧭 [JobFit Agent](https://github.com/kunalbhoomaraddi-cpu/jobfit-agent): an AI agent that can't lie about you · [Live demo](https://jobfit-agent.onrender.com)
 Tailors a resume to a job description with Gemini function calling. Scoring and truthfulness guardrails are deterministic tools, and rejected rewrites go back to the model with reasons. Guardrails catch **86% of fabricated claims** on a labelled set (blind spots documented). **Python, FastAPI, Gemini, Pytest**.
 
 ### ✅ [PromptCheck](https://github.com/kunalbhoomaraddi-cpu/promptcheck): pytest for LLM apps
