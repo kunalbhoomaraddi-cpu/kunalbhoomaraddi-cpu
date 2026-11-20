@@ -69,10 +69,10 @@ Computer Science Engineering (AI) graduate who enjoys building things end to end
 An AI fitness coach that checks your real numbers before it answers: calorie and macro targets, meal plans, workouts and weekly reviews, with about 200 Indian home-style dishes. **React, TypeScript, FastAPI, PostgreSQL, Gemini function calling**, 102 tests in GitHub Actions.
 
 ### 📄 [DocSense](https://github.com/kunalbhoomaraddi-cpu/docsense): RAG with citations and evals · [Live demo](https://docsense-6bcu.onrender.com)
-Ask questions about your documents and get answers that cite the exact section, or an honest "I couldn't find this". Hybrid retrieval (BM25 from scratch + TF-IDF + Gemini embeddings), a refusal check tuned on a 43-question eval set: **85% correct answers, 100% correct refusals, 0 made-up answers**. **Python, FastAPI, scikit-learn, Gemini**.
+Ask questions about your documents and get answers that cite the exact section, or an honest "I couldn't find this". Hybrid retrieval (BM25 from scratch + TF-IDF + Gemini embeddings), a refusal check tuned on a 43-question eval set. With Gemini: **43/43 correct (100% cited, 100% correct refusals, 0 made-up answers)**; offline without any API: 85%. **Python, FastAPI, scikit-learn, Gemini**.
 
 ### 🧭 [JobFit Agent](https://github.com/kunalbhoomaraddi-cpu/jobfit-agent): an AI agent that can't lie about you · [Live demo](https://jobfit-agent.onrender.com)
-Tailors a resume to a job description with Gemini function calling. Scoring and truthfulness guardrails are deterministic tools, and rejected rewrites go back to the model with reasons. Guardrails catch **86% of fabricated claims** on a labelled set (blind spots documented). **Python, FastAPI, Gemini, Pytest**.
+Tailors a resume to a job description with Gemini function calling. Scoring and truthfulness guardrails are deterministic tools, and rejected rewrites go back to the model with reasons. Guardrails catch **86% of fabricated claims** on a labelled set (blind spots documented); the happy path is a single model call. **Python, FastAPI, Gemini, Pytest**.
 
 ### ✅ [PromptCheck](https://github.com/kunalbhoomaraddi-cpu/promptcheck): pytest for LLM apps
 A CLI and GitHub Action that tests chatbots and prompts from YAML: 15 assertions (grounded numbers, refusals, PII, JSON schema, LLM judge), flaky detection and regression blocking against a baseline. Built from my QA internship experience. **Python, GitHub Actions, JUnit**.
